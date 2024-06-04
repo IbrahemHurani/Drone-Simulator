@@ -89,6 +89,7 @@ If you wish to add custom map it has to be black/white pixels- black is wall/obs
 
 ## update
 - if the battery is empty the drone do landing
+- add to class Drone two method Takeoff and Landing
 - Directed Graph feature added. (JGrapht library required)
 
 ## Known bugs
