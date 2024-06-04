@@ -96,7 +96,7 @@ If you wish to add custom map it has to be black/white pixels- black is wall/obs
 - Sometimes may be indifferent parameters which causing some pixels override - solution is to re-run project.
 
 ## How Does The Simulator Look Like:
-![](https://i.imgur.com/lweL2Fp.png)
+![Ex2 screenshot 1](https://github.com/IbrahemHurani/Drone-Simulator/assets/86603326/f60f0cfd-f30d-47df-9c5b-153bb726f2d6)
 ![](https://i.imgur.com/unUpwsL.png)
 ![](https://i.imgur.com/Ptnut2b.png)
 ![](https://i.imgur.com/Do0Z3gP.png)
