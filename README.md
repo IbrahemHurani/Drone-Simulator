@@ -97,7 +97,7 @@ If you wish to add custom map it has to be black/white pixels- black is wall/obs
 
 ## How Does The Simulator Look Like:
 ![Ex2 screenshot 1](https://github.com/IbrahemHurani/Drone-Simulator/assets/86603326/f60f0cfd-f30d-47df-9c5b-153bb726f2d6)
-
+![screenshot 2 eX2](https://github.com/IbrahemHurani/Drone-Simulator/assets/86603326/104ba326-40f1-45bc-9a4a-91e1add7b80b)
 ![Ex2 screenshot 3](https://github.com/IbrahemHurani/Drone-Simulator/assets/86603326/f4ba2801-3550-46d6-8831-c8724f3ddc95)
 
 
