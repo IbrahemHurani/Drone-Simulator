@@ -6,7 +6,7 @@
 
 ## Overview
 
-The main goal of this project is to develop a solution for a small drone to navigate indoor environments autonomously without collisions. The project involves a fully autonomous 2D drone simulator, aiming for realistic behavior using lidar sensors, a gyroscope, an optical flow sensor, and a speed sensor. Noise is added to sensor samples to enhance realism. The simulator includes a basic API for real-time information and manual control, as well as an area mapping feature.
+The main goal of this project is to develop a solution for a small drone to navigate indoor environments autonomously without collisions. The project involves a fully autonomous 2D drone simulator, aiming for realistic behavior using lidar sensors, a gyroscope(Yaw),Pitch,Roll,altitude, an optical flow sensor, and a speed sensor. Noise is added to sensor samples to enhance realism. The simulator includes a basic API for real-time information and manual control, as well as an area mapping feature.
 
 **The project is classified into two parts:**
 
@@ -67,7 +67,7 @@ After setting this up it is ready to launch.
 ## Sensors
 - Lidar - check the distance between his spot forward and return the distance if hit, if not return 300 as max sample enabled.
 In our project we set 3 lidars - one in front, second 90 degrees, third -90 degrees.
-- Gyroscpoe - check the rotation of the drone. (0-360)
+- Gyroscpoe(Yaw) - check the rotation of the drone. (0-360)
 - Optical flow - check his location on map.
 - Speed - max speed is 2m per second.
 
@@ -80,16 +80,15 @@ In our project we set 3 lidars - one in front, second 90 degrees, third -90 degr
 ## API Description
 The simple API includes buttons for:
 - Start/Pause
-- Speed Up/Down
-- Spin by -+30, -+45, -+60, 90, and 180 degrees
+- open Graph
 - Toggle Map: Hides the real map to enter "real-time" vision
 - Toggle AI: Enables/Disables AI
 
 ## Map Rule
 If you wish to add custom map it has to be black/white pixels- black is wall/obstacle, white is safe pass.
 
-## V2 update
-- Added return home bottom, by clicking it drone will return to starting point.
+## update
+- if the battery is empty the drone do landing
 - Directed Graph feature added. (JGrapht library required)
 
 ## Known bugs
