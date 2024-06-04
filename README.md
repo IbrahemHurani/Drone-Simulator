@@ -70,6 +70,9 @@ In our project we set 4 lidars - one in front, second 90 degrees, third -90 degr
 - Gyroscpoe(Yaw) - check the rotation of the drone. (0-360)
 - Optical flow - check his location on map.
 - Speed - max speed is 2m per second.
+- Pitch
+- Roll
+- Altitude 
 
 ## Symbols 
 - Yellow mark - mapped area.
