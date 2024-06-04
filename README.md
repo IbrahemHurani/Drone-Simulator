@@ -106,7 +106,16 @@ If you wish to add custom map it has to be black/white pixels- black is wall/obs
 
 
 ## How To Run
+- install all the code from github
+- open the code in platform like IntelliJ or any platform work with java
+- put your path for the map photo in class SimulationWindow for Example my path:
+```java
+Map map = new Map("C:\\Users\\user\\Desktop\\DroneSimulator\\Maps\\p1" + map_num + ".png",startPoints[map_num-1]);
+```
+- put your path for the drone photo in class Drone for example my path:
+ ```java
+ private String drone_img_path = "C:\\Users\\user\\Desktop\\DroneSimulator\\Maps\\drone_3_pixels.png";
+```
+- Run class SimulationWindow
+  
 
--
--
--
