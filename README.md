@@ -86,7 +86,8 @@ The simple API includes buttons for:
 If you wish to add custom map it has to be black/white pixels- black is wall/obstacle, white is safe pass.
 
 ## V2 update
-- Added return home bottom, by clicking it drone will return to starting point.
+- calculate the pitch and roll 
+- if the battery is empty the drone do landing
 - Directed Graph feature added. (JGrapht library required)
 
 ## Known bugs
@@ -101,7 +102,5 @@ If you wish to add custom map it has to be black/white pixels- black is wall/obs
 
 
 ## How To Run
-
--
--
+- 
 -
