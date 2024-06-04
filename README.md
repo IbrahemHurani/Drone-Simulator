@@ -78,10 +78,9 @@ In our project we set 3 lidars - one in front, second 90 degrees, third -90 degr
 ## API Description
 The simple API includes buttons for:
 - Start/Pause
-- Speed Up/Down
-- Spin by -+30, -+45, -+60, 90, and 180 degrees
 - Toggle Map: Hides the real map to enter "real-time" vision
 - Toggle AI: Enables/Disables AI
+- open Graph
 
 ## Map Rule
 If you wish to add custom map it has to be black/white pixels- black is wall/obstacle, white is safe pass.
