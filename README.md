@@ -117,5 +117,6 @@ Map map = new Map("C:\\Users\\user\\Desktop\\DroneSimulator\\Maps\\p1" + map_num
  private String drone_img_path = "C:\\Users\\user\\Desktop\\DroneSimulator\\Maps\\drone_3_pixels.png";
 ```
 - Run class SimulationWindow
+- for autonomous drone just click on button Toggle AI.
   
 
