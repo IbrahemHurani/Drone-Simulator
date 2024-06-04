@@ -39,10 +39,9 @@ The main goal of this project is to develop a solution for a small drone to navi
   - _`String getInfoSensorData()`_
 
 <h3 align="center"> VLD_PID.java </h3>
+<p align="center"> Implements a drone's P.I.D Controller by calculating its roll and pitch. </p>
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
-
-<p align="center"> Implements a drone's P.I.D Controller by calculating its roll and pitch. </p>
 
 - **Attributes**:
   - _`double kp`_
