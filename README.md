@@ -83,7 +83,7 @@ In our project we set 4 lidars - one in front, second 90 degrees, third -90 degr
 ## API Description
 The simple API includes buttons for:
 - Start/Pause
-- open Graph
+- open Graph: To see the graph 
 - Toggle Map: Hides the real map to enter "real-time" vision
 - Toggle AI: Enables/Disables AI
 
