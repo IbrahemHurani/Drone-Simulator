@@ -23,6 +23,7 @@ The main goal of this project is to develop a solution for a small drone to navi
 ## Classes - Brief & Insight
 
 <h3 align="center"> DataSensor.java </h3>
+<p align="center"> Handles the drone's sensor data *by calculating its distance from a wall.* </p>
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -40,6 +41,8 @@ The main goal of this project is to develop a solution for a small drone to navi
 <h3 align="center"> VLD_PID.java </h3>
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
+
+<p align="center"> Implements a drone's P.I.D Controller *by calculating its roll and pitch*. </p>
 
 - **Attributes**:
   - _`double kp`_
@@ -78,16 +81,16 @@ In our project we set 3 lidars - one in front, second 90 degrees, third -90 degr
 ## API Description
 The simple API includes buttons for:
 - Start/Pause
+- Speed Up/Down
+- Spin by -+30, -+45, -+60, 90, and 180 degrees
 - Toggle Map: Hides the real map to enter "real-time" vision
 - Toggle AI: Enables/Disables AI
-- open Graph
 
 ## Map Rule
 If you wish to add custom map it has to be black/white pixels- black is wall/obstacle, white is safe pass.
 
 ## V2 update
-- calculate the pitch and roll 
-- if the battery is empty the drone do landing
+- Added return home bottom, by clicking it drone will return to starting point.
 - Directed Graph feature added. (JGrapht library required)
 
 ## Known bugs
@@ -102,5 +105,7 @@ If you wish to add custom map it has to be black/white pixels- black is wall/obs
 
 
 ## How To Run
-- 
+
+-
+-
 -
