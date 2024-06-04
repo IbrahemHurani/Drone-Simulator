@@ -66,7 +66,7 @@ After setting this up it is ready to launch.
 
 ## Sensors
 - Lidar - check the distance between his spot forward and return the distance if hit, if not return 300 as max sample enabled.
-In our project we set 3 lidars - one in front, second 90 degrees, third -90 degrees.
+In our project we set 4 lidars - one in front, second 90 degrees, third -90 degrees,180 degrees(Backward).
 - Gyroscpoe(Yaw) - check the rotation of the drone. (0-360)
 - Optical flow - check his location on map.
 - Speed - max speed is 2m per second.
