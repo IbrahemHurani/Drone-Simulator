@@ -23,7 +23,7 @@ The main goal of this project is to develop a solution for a small drone to navi
 ## Classes - Brief & Insight
 
 <h3 align="center"> DataSensor.java </h3>
-<p align="center"> Handles the drone's sensor data *by calculating its distance from a wall.* </p>
+<p align="center"> Handles the drone's sensor data by calculating its distance from a wall. </p>
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -42,7 +42,7 @@ The main goal of this project is to develop a solution for a small drone to navi
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
-<p align="center"> Implements a drone's P.I.D Controller *by calculating its roll and pitch*. </p>
+<p align="center"> Implements a drone's P.I.D Controller by calculating its roll and pitch. </p>
 
 - **Attributes**:
   - _`double kp`_
